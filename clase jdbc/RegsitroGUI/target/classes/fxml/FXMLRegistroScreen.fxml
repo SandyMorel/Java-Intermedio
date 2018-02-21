@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.itla.regsitrogui.Controller.RegistroScreenController">
+  <children>
+    <BorderPane fx:id="mainLayout" layoutX="0.0" layoutY="0.0" prefHeight="400.0" prefWidth="611.0">
+      <top>
+        <VBox prefHeight="183.0" prefWidth="611.0">
+          <children>
+            <MenuBar minHeight="21.0" prefHeight="21.0" prefWidth="611.0000999999975">
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem fx:id="OpenFile" mnemonicParsing="false" onAction="#OpenFile" text="Open" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Mantenimiento">
+                  <items>
+                    <MenuItem mnemonicParsing="false" onAction="#cargarRegistroProfesor" text="Agregar Profesor" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+          </children>
+        </VBox>
+      </top>
+    </BorderPane>
+  </children>
+</AnchorPane>

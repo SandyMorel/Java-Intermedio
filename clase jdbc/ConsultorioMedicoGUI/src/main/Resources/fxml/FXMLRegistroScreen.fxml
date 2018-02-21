@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.consultoriomedicogui.Controller.RegistroScreenController">
+  <children>
+    <BorderPane fx:id="mainLayout" layoutX="0.0" layoutY="0.0" prefHeight="400.0" prefWidth="600.0">
+         <center>
+        <VBox prefHeight="426.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+          <children>
+            <MenuBar>
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu fx:id="MantenimientoMenu" mnemonicParsing="false" text="Mantenimiento">
+                  <items>
+                    <Menu fx:id="MenuPaciente" mnemonicParsing="false" text="Paciente">
+                      <items>
+                        <MenuItem fx:id="AgregarPaciente" mnemonicParsing="false" onAction="#cargarRegistroPaciente" text="Agregar Paciente" />
+                        <MenuItem fx:id="BuscarPaciente" mnemonicParsing="false" onAction="#BuscarRegistroPaciente" text="Buscar Paciente" />
+                      </items>
+                    </Menu>
+                    <Menu fx:id="MenuDoctor" mnemonicParsing="false" text="Doctor">
+                      <items>
+                        <MenuItem fx:id="AgregarDoctor" mnemonicParsing="false" onAction="#cargarRegistroDoctor" text="Agregar Doctor" />
+                        <MenuItem fx:id="BuscarDoctor" mnemonicParsing="false" text="Buscar Doctor" />
+                      </items>
+                    </Menu>
+                    <Menu fx:id="MenuCita" mnemonicParsing="false" text="Citas">
+                      <items>
+                        <MenuItem fx:id="AgregarCita" mnemonicParsing="false" onAction="#cargarRegistroCita" text="Agregar Cita" />
+                        <MenuItem fx:id="BuscarCita" mnemonicParsing="false" text="Buscar Cita" />
+                      </items>
+                    </Menu>
+                              <Menu mnemonicParsing="false" text="Procedimiento">
+                                <items>
+                                  <MenuItem mnemonicParsing="false" onAction="#cargarRegistroProcedimiento" text="Agregar Procedimiento" />
+                                    <MenuItem mnemonicParsing="false" text="Buscar Procedimiento" />
+                                </items>
+                              </Menu>
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Otros">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Action 1" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+          </children>
+        </VBox>
+         </center>
+    </BorderPane>
+  </children>
+</AnchorPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="259.0" prefWidth="548.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.consultoriomedicogui.Controller.RegistroProcedimientoController">
+   <children>
+      <TextField fx:id="txtProcedimiento" layoutX="168.0" layoutY="138.0" prefHeight="25.0" prefWidth="216.0" />
+      <Label layoutX="75.0" layoutY="142.0" text="Procedimiento" />
+      <Button fx:id="btnGuardar" layoutX="392.0" layoutY="134.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="113.0" text="Guardar" />
+      <Label layoutX="174.0" layoutY="66.0" text="Formulario Para  Procedimientos">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Separator layoutX="163.0" layoutY="93.0" prefHeight="4.0" prefWidth="281.0" style="-fx-background-color: #3D7895;" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.consultoriomedicogui.Controller.RegistroDoctorController">
+   <children>
+      <Button fx:id="btnCancelar" layoutX="368.0" layoutY="274.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="123.0" text="Cancelar" textFill="#282828">
+         <effect>
+            <ColorAdjust brightness="0.02" />
+         </effect>
+      </Button>
+      <Button fx:id="btnGuardar" layoutX="140.0" layoutY="274.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="123.0" text="Guardar">
+         <effect>
+            <ColorAdjust brightness="0.02" />
+         </effect>
+      </Button>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="91.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../Downloads/Iconos/Cell%20Phone_64px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.000099999997474" fitWidth="32.000099999997474" layoutX="91.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../Downloads/Iconos/Marker_64px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="91.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../Downloads/Iconos/ID%20Card_64px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="87.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../Downloads/Iconos/Contacts_64px.png" />
+         </image>
+      </ImageView>
+      <TextField id="txtNombre" fx:id="txtTelefono" layoutX="132.0" layoutY="183.0" prefWidth="172.0" promptText="Telefono" />
+      <TextField id="txtNombre" fx:id="txtDireccion" layoutX="132.0" layoutY="217.0" prefHeight="25.0" prefWidth="425.0" promptText="Direccion" />
+      <TextField id="txtNombre" fx:id="txtCedula" layoutX="132.0" layoutY="146.0" prefWidth="172.0" promptText="Cedula" />
+      <TextField id="txtNombre" fx:id="txtEdad" layoutX="315.0" layoutY="146.0" prefHeight="25.0" prefWidth="53.0" promptText="Edad" />
+      <TextField id="txtNombre" fx:id="txtApellido" layoutX="315.0" layoutY="108.0" prefHeight="25.0" prefWidth="238.0" promptText="Apellido" />
+      <TextField fx:id="txtNombre" layoutX="132.0" layoutY="108.0" prefWidth="172.0" promptText="Nombre" />
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="304.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../Downloads/Iconos/Caduceus%20Medical_64px.png" />
+         </image>
+      </ImageView>
+      <TextField id="txtNombre" fx:id="txtEspecialidad" layoutX="336.0" layoutY="183.0" prefHeight="25.0" prefWidth="220.0" promptText="Especialidad" />
+      <TextField id="txtNombre" fx:id="txtCorreo" layoutX="383.0" layoutY="143.0" prefHeight="25.0" prefWidth="172.0" promptText="Correo" />
+      <Label layoutX="197.0" layoutY="66.0" text="Formulario Para Doctores">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Separator layoutX="163.0" layoutY="93.0" prefHeight="4.0" prefWidth="281.0" style="-fx-background-color: #3D7895;" />
+   </children>
+</AnchorPane>
